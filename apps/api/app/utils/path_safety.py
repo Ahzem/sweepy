@@ -93,7 +93,7 @@ def is_valid_windows_filename(filename: str) -> tuple[bool, str]:
         return False, "Filename cannot end with a period or space on Windows."
 
     stem = Path(filename).stem.upper()
-    if stem in WINDOW_RESERVED_NAMES:
+    if stem in WINDOWS_RESERVED_NAMES:
         return False, f"'{stem}' is a reserved device name in Windows."
 
     return True, "Valid"
