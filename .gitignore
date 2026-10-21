@@ -7,11 +7,8 @@ __pycache__/
 build/
 develop-eggs/
 dist/
-downloads/
 eggs/
 .eggs/
-lib/
-lib64/
 parts/
 sdist/
 var/
@@ -45,6 +42,7 @@ out/
 .sweepy/
 *.log
 operation_log.json
+operations_log.json
 
 # System & IDE
 .DS_Store
